@@ -10,7 +10,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
@@ -18,10 +17,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	}
 
 	}
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
 
 caption, th, td {
 	font-weight: normal;
@@ -34,7 +29,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-
+/* end of reset code */
+/* universal selector */
     *{
         box-sizing: border-box;
         padding:0;
@@ -42,6 +38,7 @@ blockquote, q {
         max-width: 100%;
         border: 1px solid grey;
     }
+    /* general styles */
     html{
         font-size:62.5%;
     }
@@ -50,29 +47,33 @@ blockquote, q {
         line-height: 1.5;
         color: #4f4f4f;
     }
-    h1{
-       font: 
+    section{
+        padding: 4% 0;
     }
     a{
         text-decoration:none;
     }
+    nav{
+        padding: 2% 0;
+    }
     nav a{
-display: inline-block;
-padding:1% 0;
-width:10%;
-border-radius:10px;
-text-align:center;
-color:#fff;
+        display: inline-block;
+        padding:1% 0;
+        width:10%;
+        border-radius:10px;
+        text-align:center;
+        color:#fff;
     }
 
     .orange{
         background-color: #FF764E;
-        margin:10%
+        margin-left:10%
     }
     .blue{
-        color:#5ED3EB;
-
+        background-color:#5ED3EB;
+        margin:0 24%;
     }
     .yellow{
         background-color: #FFCD69;
+        margin-right: 10%;
     }
