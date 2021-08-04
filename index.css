@@ -36,33 +36,37 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width: 100%;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     }
     /* general styles */
     html{
         font-size:62.5%;
     }
     body{
-        font-size:1.6rem;
+        font-size:1.0rem;
         line-height: 1.5;
         color: #4f4f4f;
+        font-family: 'Roboto Mono', monospace;
     }
     section{
-        padding: 4% 0;
+        padding: 2% 0;
     }
     a{
         text-decoration:none;
     }
     nav{
         padding: 2% 0;
+        margin-left: 5%;
     }
     nav a{
         display: inline-block;
-        padding:1% 0;
-        width:10%;
+        padding:1% 1%;
+        width:15%;
         border-radius:10px;
         text-align:center;
         color:#fff;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
     }
 
     .orange{
@@ -71,9 +75,80 @@ blockquote, q {
     }
     .blue{
         background-color:#5ED3EB;
-        margin:0 24%;
+        margin:0 12%;
     }
     .yellow{
         background-color: #FFCD69;
-        margin-right: 10%;
+        margin-right: 5%;
+    }
+    
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5rem;
+        margin-bottom: 5%;
+    }
+    .top{
+        position:relative;
+    }
+    .left,.right{
+        text-align:center;
+        display:inline-block;
+    }
+    .left{
+        width: 35%;
+    }
+    .left img{
+        width:80%;
+        border-radius: 50%;
+    }
+    .right{
+        width:50%;
+        position:absolute;
+        top:15%;
+    }
+    .right h2{
+        margin-top:5%;
+        font-size: 1.6rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .right p{
+        margin-top:5%;
+        margin-left: 25%;
+        font-size: 1.5rem;
+        width: 50%;
+    }
+    .infoBody{
+        background-color: #DDB9A3;
+        padding: 1.5% 2%;
+        Margin:0 2%;
+    }
+    .infoP p{
+        text-align: center;
+        Margin:2% 1%;
+        color:white;
+        font-size: 1.4rem;
+    }
+    .icons{
+        text-align: center;
+    }
+    .icons img{
+        width: 12%;
+    }
+    .icons p{
+        width:25%;
+        margin-left:37%;
+        font-size: 1.3rem;
+    }
+    .reservations img{
+        margin-top: 5%;
+    }
+    .bigimg {
+        width: 100%; /* width of container */
+        height: 300px; /* height of container */
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    footer .navbar{
+        margin: 0;
     }
